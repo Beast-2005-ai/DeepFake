@@ -38,7 +38,7 @@ Git and Git LFS
 
 1. Clone the Repository
 
-git clone [Your-Repo-URL-Here]
+git clone https://github.com/Beast-2005-ai/DeepFake.git
 cd DeepFake
 
 
@@ -46,10 +46,10 @@ cd DeepFake
 
 # Create and activate a Python virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 
 # Install Python dependencies
-pip install -r requirements.txt # We will create this file later
+pip install -r requirements.txt
 
 
 3. Frontend Setup
