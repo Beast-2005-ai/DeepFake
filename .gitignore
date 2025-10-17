@@ -44,3 +44,6 @@ evaluation_results/
 Log files
 
 *.log
+
+# Ignore local testing data
+testing/
