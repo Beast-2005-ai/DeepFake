@@ -1,0 +1,46 @@
+Python virtual environment and cache
+
+venv/
+pycache/
+*.pyc
+
+IDE and OS generated files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+Node.js dependencies (VERY IMPORTANT)
+
+These folders contain thousands of files and should never be on GitHub.
+
+/website/node_modules/
+/website/dist/
+.env
+.local
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+Temporary files from our backend server
+
+/website/backend/temp_uploads/
+/website/backend/pycache/
+/website/backend/models/pycache/
+/website/backend/utils/pycache/
+
+Large model files - these will be handled by Git LFS
+
+We still list them here as a fallback.
+
+*.pth
+*.xml
+
+Generated folders
+
+evaluation_results/
+
+Log files
+
+*.log
